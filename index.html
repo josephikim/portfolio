@@ -295,8 +295,9 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="contact__form">
             <div class="contact__form-field">
+              <input type="hidden" name="access_key" value="065cca63-50c2-4b0a-ad9b-0d32506e5cc1" />
               <label class="contact__form-label" for="name">Name</label>
               <input
                 required
@@ -330,6 +331,7 @@
                 id="message"
               ></textarea>
             </div>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
             <button type="submit" class="btn btn--theme contact__btn">
               Submit
             </button>
