@@ -277,6 +277,9 @@ textarea {
 .home-hero__social {
   width: 5rem;
 }
+.home-hero__social:last-of-type .home-hero__social-icon-link:last-of-type {
+  border-bottom: none;
+}
 .home-hero__social-icon-link {
   width: 100%;
   display: block;
@@ -368,9 +371,8 @@ textarea {
   line-height: 1.7;
   margin-bottom: 1rem;
 }
-.about__content-details-para--hl {
-  font-weight: 700;
-  margin: 0 3px;
+.about__content-details-para--link {
+  color: blue;
 }
 .about__content-details-para:last-child {
   margin-bottom: 4rem;
@@ -857,6 +859,19 @@ textarea {
 .main-footer__social-cont {
   margin-top: 2rem;
 }
+
+.main-footer__contact-cont {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.main-footer__contact-cont a {
+  color: #eee;
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
 .main-footer__icon {
   margin-right: 1rem;
   width: 2.5rem;
